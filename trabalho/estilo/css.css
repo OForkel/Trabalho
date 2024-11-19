@@ -32,12 +32,13 @@ header{
 }
 
 .headerfranc{
-    background-color: aqua;
+    background-color: rgb(19, 221, 221);
 }
 
 .headeresp{
-    background-color: yellow;
+    background-color: rgb(219, 219, 21);
 }
+
 
 header h1 {
     margin-bottom: 20px;
