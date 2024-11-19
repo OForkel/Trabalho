@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.index{
+    background-color: #2a2a2a;
+}
+
+.headeringla{
+    background-color: #411b9b;
+}
+
+.headerport{
+    background-color: red;
+}
+
+.headerita{
+    background-color: green;
+}
+
+.headerfranc{
+    background-color: aqua;
+}
+
+.headeresp{
+    background-color: yellow;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.pagina h2 {
+    color: #2a2a2a;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.pagina h3 {
+    color: #555;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #2a2a2a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.inicio {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imagens/teste.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.pagina {
+    width: 60%;
+    margin: auto;
+    border: 3px solid gray;
+    padding: 50px;
+    background-color: rgba(204, 203, 201, 0.9);
+}
